@@ -28,7 +28,7 @@ This project uses household-level data from India's National Family Health Surve
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/pmjay-insurance-analysis.git
+git clone https://github.com/himank7737/pmjay-insurance-analysis.git
 cd pmjay-insurance-analysis
 ```
 
