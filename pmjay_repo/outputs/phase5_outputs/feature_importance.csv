@@ -1,0 +1,10 @@
+feature,feature_label,importance_gain
+state_code,State,0.3227531
+wave,Survey Wave (Pre/Post PM-JAY),0.2338459
+bpl,BPL Card,0.15764475
+treated,PM-JAY State,0.1365006
+wealth_quintile,Wealth Quintile,0.043281246
+religion_int,Religion,0.034781102
+urban,Urban (vs Rural),0.033249132
+caste_int,Caste (SC/ST/OBC/Gen),0.027155243
+hh_size,Household Size,0.010788937

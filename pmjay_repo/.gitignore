@@ -1,0 +1,48 @@
+# Raw DHS data files — never commit these (large + restricted)
+*.DTA
+*.dta
+*.FRW
+*.frw
+*.FRQ
+*.frq
+*.MAP
+*.map
+*.DCT
+*.dct
+*.DO
+*.do
+
+# Parquet files (large — regenerate from scripts)
+*.parquet
+
+# XGBoost model binary
+*.json
+xgb_model*
+
+# SHAP values array (large)
+shap_values.npy
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+myenv/
+*.pdb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Outputs that can be regenerated (keep plots, remove large intermediates)
+# Uncomment below if you want to exclude all outputs:
+# outputs/

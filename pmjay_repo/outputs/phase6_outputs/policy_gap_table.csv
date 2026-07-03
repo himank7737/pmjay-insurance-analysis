@@ -1,0 +1,12 @@
+Group,Dimension,NFHS4_coverage_%,NFHS5_coverage_%,Change_pp,DiD_effect,SHAP_rank,Pred_uninsured_%,Risk_Level,Policy_Note
+General (non-reserved),Caste,20.4,35.6,15.2,N/A,8,70.9,HIGH,Highest predicted uninsured rate of any caste group; lowest baseline coverage; not targeted by caste-based schemes and often above BPL threshold
+East,Region,,,,N/A,1,69.9,HIGH,"Highest regional uninsured rate; Bihar, Jharkhand, West Bengal — low BPL card penetration and awareness barriers dominate"
+Northeast,Region,,,,N/A,1,63.5,HIGH,High uninsured rate despite relatively high ST population (which has better coverage); state-level heterogeneity is high
+Poorest (Q1),Wealth,22.0,40.2,18.2,+2.02 pp (M4),4,62.7,HIGH,Largest absolute gain but still >60% uninsured; BPL card is strongest predictor — enrollment drives access
+Richest (Q5),Wealth,27.5,41.2,13.7,N/A,4,61.8,MEDIUM,High predicted uninsured despite wealth — suggests avoidance of public schemes; not a PM-JAY target group
+Urban,Urban/Rural,25.8,40.0,14.2,N/A,5,61.5,MEDIUM,Lower gains than rural; urban informally employed workers lack ESIS/CGHS access and are PM-JAY eligible but under-enrolled
+Poorer (Q2),Wealth,25.4,44.4,19.0,+2.02 pp (M4),4,60.1,HIGH,Strong gains; still majority uninsured — gap between BPL eligibility and actual enrollment
+SC (Scheduled Caste),Caste,27.0,43.7,16.7,N/A,8,59.5,HIGH,Gains above national average; still majority uninsured; SHAP shows caste is a weaker predictor than wealth — wealth channels most of the SC disadvantage
+Rural,Urban/Rural,26.1,43.8,17.7,-1.64 pp (M5),5,57.8,HIGH,Higher raw gains than urban but DiD negative — control states (Odisha BSKY) grew faster; PM-JAY rural outreach underperformed
+OBC,Caste,26.0,44.4,18.4,N/A,8,57.8,HIGH,Largest caste-group gains; still majority uninsured; large and heterogeneous group — sub-group targeting needed
+ST (Scheduled Tribe),Caste,33.7,47.2,13.5,N/A,8,46.7,MEDIUM,Highest baseline coverage of all caste groups (state tribal schemes pre-PM-JAY); lowest predicted uninsured — relatively better off

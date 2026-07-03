@@ -1,0 +1,7 @@
+Group,DiD Result,SHAP Finding,Verdict
+All households,+12.86 pp***,Wave = #2 driver (0.50),PM-JAY increased coverage significantly after state FE
+Poor households (Q1-Q2),+2.02 pp***,BPL card = #3 driver (0.33); wealth = #4 (0.17),Targeted gains but weak — enrollment barriers persist
+Rural households,-1.64 pp***,Urban flag = #5 driver (0.09),Rural PM-JAY outreach underperformed vs control states
+General caste,Not tested,Caste = #8 driver (0.05); highest pred. uninsured (70.9%),Largest coverage gap — not targeted by any scheme
+East region,Captured in state FE,State = #1 driver (0.72); East states bottom-ranked,Geographic inequality dominates; Bihar/Jharkhand critical
+Northeast region,Captured in state FE,State = #1 driver (0.72); high within-region variance,High uninsured despite tribal schemes; state-specific gaps

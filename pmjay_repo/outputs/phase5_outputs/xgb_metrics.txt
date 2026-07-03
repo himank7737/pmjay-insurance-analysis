@@ -1,0 +1,17 @@
+XGBoost Evaluation
+========================================
+AUC:      0.8143
+Accuracy: 0.7424
+F1:       0.6606
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Uninsured       0.84      0.75      0.79    160634
+     Insured       0.61      0.72      0.66     85284
+
+    accuracy                           0.74    245918
+   macro avg       0.72      0.74      0.73    245918
+weighted avg       0.76      0.74      0.75    245918
+
+Best iteration: 499
